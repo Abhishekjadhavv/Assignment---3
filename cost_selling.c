@@ -17,7 +17,7 @@ int main()
     }
     else
     {
-        printf("Loss : %d%% percentage.",((selling_price-cost_price)/cost_price) * 100);
+        printf("Loss : %d%% percentage.",((cost_price-selling_price)/cost_price) * 100);
     }
 
     return 0;
